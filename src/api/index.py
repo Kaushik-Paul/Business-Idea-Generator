@@ -17,7 +17,7 @@ def idea():
         base_url=base_url,
         api_key=api_key
     )
-    prompt = [{"role": "user", "content": "Come up with a new business idea for AI Agents"}]
+    prompt = [{"role": "user", "content": "Reply with a new business idea for AI Agents, formatted with headings, sub-headings and bullet points"}]
     stream = client.chat.completions.create(model=model_name, messages=prompt, stream=True)
 
     def event_stream():
