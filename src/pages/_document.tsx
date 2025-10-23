@@ -6,6 +6,9 @@ export default function Document() {
       <Head>
         <title>Healthcare Consultation Assistant</title>
         <meta name="description" content="AI-powered medical consultation summaries" />
+        <link rel="icon" href="https://storage.googleapis.com/kaushik-resources/kaushik-website-logo.jpg" type="image/jpeg" />
+        <link rel="shortcut icon" href="https://storage.googleapis.com/kaushik-resources/kaushik-website-logo.jpg" type="image/jpeg" />
+        <link rel="apple-touch-icon" href="https://storage.googleapis.com/kaushik-resources/kaushik-website-logo.jpg" />
       </Head>
       <body>
         <Main />
