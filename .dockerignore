@@ -1,0 +1,15 @@
+node_modules
+.next
+.env
+.env.local
+.git
+.gitignore
+README.md
+.DS_Store
+*.log
+.vercel
+dist
+build
+.idea
+.vscode
+__pycache__
